@@ -116,8 +116,8 @@ section .container {
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
-  padding: 20px;
-  width: 100%;
+  padding: 5px;
+  width: 99%;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -134,7 +134,7 @@ section .container {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.5);
   font-weight: 700;
-  margin: 10px 0 8px 68px;
+  margin: 10px 0 8px 20px;
 }
 
 .contact .info-box p {
