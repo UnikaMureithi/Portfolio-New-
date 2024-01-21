@@ -7,6 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
   
   link.target = '_blank';
   
+  link.style.color = 'white';
+
+  link.style.marginLeft = '30px';
+
   var targetSection = document.getElementById('hobbies');
   
   // Append the link to the specified section
