@@ -1,18 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
-  var link = document.createElement('a');
+  var button = document.createElement('button');
   
-  link.href = 'https://github.com/UnikaMureithi/136017';
+  button.textContent = 'View on GitHub';
+  
+  button.style.color = 'white';
+  button.style.backgroundColor = '#a80294'; // Customize the background color
+  button.style.border = 'none'; // Remove the border for a cleaner look
+  button.style.borderRadius = '5px'; // Add rounded edges
+  button.style.padding = '10px 15px'; // Add padding for better aesthetics
+  button.style.marginLeft = '30px';
 
-  link.textContent = 'View on GitHub';
-  
-  link.target = '_blank';
-  
-  link.style.color = 'white';
-
-  link.style.marginLeft = '30px';
+  button.addEventListener('click', function() {
+    window.open('https://github.com/UnikaMureithi/136017', '_blank');
+  });
 
   var targetSection = document.getElementById('hobbies');
   
-  // Append the link to the specified section
-  targetSection.appendChild(link);
+  // Append the button to the specified section
+  targetSection.appendChild(button);
 });
