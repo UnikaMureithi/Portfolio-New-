@@ -144,3 +144,13 @@ section .container {
   font-size: 14px;
   margin: 0 0 0 68px;
 }
+
+.rounded-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 440px;
+  height: 440px;
+}
+.material-icons {
+  color: #a80294;
+}
